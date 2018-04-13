@@ -11,6 +11,10 @@ import os
 import sys
 import site
 import django.core.handlers.wsgi
+from django import setup
+
+# Initialize Django
+setup()
 
 # Add the site-packages of the chosen virtualenv to work with
 site.addsitedir('/home/traffik-rap/.virtualenvs/traffikrap/lib/python2.7/site-packages')
