@@ -10,9 +10,8 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/1.10/ref/settings/
 """
 
-import os
 
-from django import setup
+import os
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = '2c5-oxy-zql_)0&+dy=r%o)xcz9a&cjrlui$7w&7=)pbv&(x51'
@@ -121,5 +120,3 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
 
 STATIC_URL = '/static/'
-
-setup()

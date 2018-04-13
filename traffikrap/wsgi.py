@@ -20,9 +20,4 @@ sys.path.append('/home/traffik-rap/www/traffikrap/traffikrap')
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'settings')
 
-# Activate your virtual env
-activate_env = os.path.expanduser("/home/traffik-rap/.virtualenvs/traffikrap/bin/activate_this.py")
-execfile(activate_env, dict(__file__=activate_env))
-
-
 application = django.core.handlers.wsgi.WSGIHandler()
